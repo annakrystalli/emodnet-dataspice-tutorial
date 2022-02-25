@@ -6,15 +6,21 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-02-25T10:43:32+00:00"
+      "last_modified": "2022-02-25T11:56:20+00:00"
     },
     {
       "path": "index.html",
-      "title": "EMODnet Dataspice Tutorial",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
-      "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-02-25T10:43:33+00:00"
+      "title": "EMODnet Biology Dataspice Tutorial",
+      "description": "An Introduction to using R package Dataspice to collect metadata for EMODnet Biology Data Products\n",
+      "author": [
+        {
+          "name": "Anna Krystalli, Ph.D.",
+          "url": "https://annakrystalli.me"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\n\nContents\nOverview\nPreliminaries\nSoftware Requirements\nTutorial Materials\n\nIntroduction\ndataspice workflow\n\n\n\n\n\nOverview\nThe goal of this tutorial is to provide a practical exercise in creating metadata for an example field collected data product using package dataspice.\nUnderstand basic metadata and why it is important.\nUnderstand where and how to store them.\nUnderstand how they can feed into more complex metadata objects.\nPreliminaries\nSoftware Requirements\nTo follow this tutorial, you will need to have a recent version of R and ideally RStudio Desktop installed.\nYou will also need to install package dataspice as well as a few additional helper packages.\n\n\ninstall.packages(c(\"dataspice\"))\n\n\n\nTutorial Materials\nYou will also need to fork (make a copy of) and clone (download your fork) the example Data Product EMODnet/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits I will be working with in this tutorial.\nIntroduction\ndataspice workflow\n\n\n\n\n\n\n",
+      "last_modified": "2022-02-25T11:56:20+00:00"
     }
   ],
   "collections": []

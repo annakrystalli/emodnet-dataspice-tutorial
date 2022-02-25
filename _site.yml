@@ -3,10 +3,19 @@ title: "EMODnet Dataspice Tutorial"
 description: |
   EMODnet Dataspice Tutorial
 output_dir: "docs"
+creative_commons: CC BY-SA
 navbar:
+  logo:
+    image: images/logo.png
+    href: https://emodnet.ec.europa.eu/en
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
-output: distill::distill_article
+    - icon: fab fa-github
+      href: https://github.com/annakrystalli/emodnet-dataspice-tutorial
+output: 
+  distill::distill_article:
+    toc: true
+    css: styles.css

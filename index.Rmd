@@ -1,12 +1,18 @@
 ---
-title: "EMODnet Dataspice Tutorial"
+title: "EMODnet Biology Dataspice Tutorial"
+author:
+- name: Anna Krystalli, Ph.D.
+  url: https://annakrystalli.me
+  affiliation: "University of Sheffield, <br> Research Software Engineering"
+  affiliation_url: https://rse.shef.ac.uk/
+date: "`r Sys.Date()`"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  An Introduction to using R package Dataspice to collect metadata for EMODnet Biology Data Products
 site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
 
 # Learn more about creating websites with Distill at:
 # https://rstudio.github.io/distill/website.html
@@ -24,13 +30,52 @@ meta() %>%
     description = "EMODnet Dataspice Tutorial",
     generator = "xaringan and remark.js"
   ) %>% 
-  meta_name("github-repo" = "rstudio-education/tidymodels-virtually") %>% 
+  meta_name("github-repo" = "annakrystalli/emodnet-dataspice-tutorial") %>% 
   meta_social(
-    title = "Tidymodels, Virtually",
-    url = "https://tmv.netlify.app/site/",
+    title = "EMODnet Dataspice Tutorial",
+    url = "http://annakrystalli.me/emodnet-dataspice-tutorial/",
     image = "https://repository-images.githubusercontent.com/257969031/8d10c100-e84e-11ea-8200-6a1aa6d8a356",
-    image_alt = "Birds perched",
+    image_alt = "EMODnet logo",
     og_type = "website",
     twitter_card_type = "summary_large_image"
   )
 ```
+
+## Overview
+
+The goal of this tutorial is to provide a **practical exercise in creating metadata** for an **example field collected data product** using package [`dataspice`](https://docs.ropensci.org/dataspice/). 
+
+- Understand basic metadata and why it is important.
+
+- Understand where and how to store them.
+
+- Understand how they can feed into more complex metadata objects.
+
+
+## Preliminaries
+
+### Software Requirements
+
+To follow this tutorial, you will need to have [**a recent version of R**](https://cran.r-project.org/) and ideally [**RStudio Desktop**](https://www.rstudio.com/download) installed.
+
+You will also need to install package  `dataspice` as well as a few additional helper packages.
+
+```{r, eval=FALSE}
+install.packages(c("dataspice"))
+```
+
+### Tutorial Materials
+
+You will also need to fork (make a copy of) and clone (download your fork) the example Data Product [**EMODnet/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits**](https://github.com/EMODnet/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits) I will be working with in this tutorial.
+
+
+## Introduction
+
+### `dataspice` workflow
+
+
+```{r, out.width="100%", echo=FALSE}
+knitr::include_graphics("https://github.com/ropensci/dataspice/raw/main/man/figures/dataspice_workflow.png")
+```
+
+
