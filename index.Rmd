@@ -1,0 +1,36 @@
+---
+title: "EMODnet Dataspice Tutorial"
+description: |
+  Welcome to the website. I hope you enjoy it!
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+
+```{r meta, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_general(
+    description = "EMODnet Dataspice Tutorial",
+    generator = "xaringan and remark.js"
+  ) %>% 
+  meta_name("github-repo" = "rstudio-education/tidymodels-virtually") %>% 
+  meta_social(
+    title = "Tidymodels, Virtually",
+    url = "https://tmv.netlify.app/site/",
+    image = "https://repository-images.githubusercontent.com/257969031/8d10c100-e84e-11ea-8200-6a1aa6d8a356",
+    image_alt = "Birds perched",
+    og_type = "website",
+    twitter_card_type = "summary_large_image"
+  )
+```
