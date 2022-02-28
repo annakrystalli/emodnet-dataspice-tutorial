@@ -4,6 +4,7 @@ description: |
   EMODnet Dataspice Tutorial
 output_dir: "docs"
 creative_commons: CC BY-SA
+exclude: ["data", "product"]
 navbar:
   logo:
     image: images/logo.png
@@ -18,4 +19,6 @@ navbar:
 output: 
   distill::distill_article:
     toc: true
+    highlight: haddock
+    highlight_downlit: false
     css: styles.css

@@ -54,35 +54,30 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ad0000; } /* Alert */
-code span.an { color: #5e5e5e; } /* Annotation */
+code span.al { color: #ff0000; } /* Alert */
+code span.an { color: #008000; } /* Annotation */
 code span.at { } /* Attribute */
-code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
-code span.ch { color: #20794d; } /* Char */
-code span.cn { color: #8f5902; } /* Constant */
-code span.co { color: #5e5e5e; } /* Comment */
-code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-code span.dt { color: #ad0000; } /* DataType */
-code span.dv { color: #ad0000; } /* DecVal */
-code span.er { color: #ad0000; } /* Error */
+code span.cf { color: #0000ff; } /* ControlFlow */
+code span.ch { color: #008080; } /* Char */
+code span.cn { } /* Constant */
+code span.co { color: #008000; } /* Comment */
+code span.cv { color: #008000; } /* CommentVar */
+code span.do { color: #008000; } /* Documentation */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
-code span.fl { color: #ad0000; } /* Float */
-code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
-code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
-code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
-code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #5e5e5e; } /* SpecialChar */
-code span.ss { color: #20794d; } /* SpecialString */
-code span.st { color: #20794d; } /* String */
-code span.va { color: #111111; } /* Variable */
-code span.vs { color: #20794d; } /* VerbatimString */
-code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+code span.in { color: #008000; } /* Information */
+code span.kw { color: #0000ff; } /* Keyword */
+code span.op { } /* Operator */
+code span.ot { color: #ff4000; } /* Other */
+code span.pp { color: #ff4000; } /* Preprocessor */
+code span.sc { color: #008080; } /* SpecialChar */
+code span.ss { color: #008080; } /* SpecialString */
+code span.st { color: #008080; } /* String */
+code span.va { } /* Variable */
+code span.vs { color: #008080; } /* VerbatimString */
+code span.wa { color: #008000; font-weight: bold; } /* Warning */
 </style>
 
 
@@ -94,8 +89,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"/>
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2022-02-25"/>
-  <meta property="article:created" itemprop="dateCreated" content="2022-02-25"/>
+  <meta property="article:published" itemprop="datePublished" content="2022-02-28"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-02-28"/>
   <meta name="article:author" content="Anna Krystalli, Ph.D."/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
@@ -114,7 +109,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","description","site"]}},"value":[{"type":"character","attributes":{},"value":["EMODnet Biology Dataspice Tutorial"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Anna Krystalli, Ph.D."]},{"type":"character","attributes":{},"value":["https://annakrystalli.me"]},{"type":"character","attributes":{},"value":["University of Sheffield, <br> Research Software Engineering"]},{"type":"character","attributes":{},"value":["https://rse.shef.ac.uk/"]}]}]},{"type":"character","attributes":{},"value":["2022-02-25"]},{"type":"character","attributes":{},"value":["An Introduction to using R package Dataspice to collect metadata for EMODnet Biology Data Products\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","description","site"]}},"value":[{"type":"character","attributes":{},"value":["EMODnet Biology Dataspice Tutorial"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Anna Krystalli, Ph.D."]},{"type":"character","attributes":{},"value":["https://annakrystalli.me"]},{"type":"character","attributes":{},"value":["University of Sheffield, <br> Research Software Engineering"]},{"type":"character","attributes":{},"value":["https://rse.shef.ac.uk/"]}]}]},{"type":"character","attributes":{},"value":["2022-02-28"]},{"type":"character","attributes":{},"value":["An Introduction to using R package Dataspice to collect metadata for EMODnet Biology Data Products\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2043,22 +2038,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
-  <meta name="description" content="EMODnet Dataspice Tutorial"/>
+  <meta name="description" content="EMODnet Biology Dataspice Tutorial"/>
   <meta name="generator" content="xaringan and remark.js"/>
   <meta name="github-repo" content="annakrystalli/emodnet-dataspice-tutorial"/>
-  <meta name="twitter:title" content="EMODnet Dataspice Tutorial"/>
-  <meta name="twitter:description" content="EMODnet Dataspice Tutorial"/>
+  <meta name="twitter:title" content="EMODnet Biology Dataspice Tutorial"/>
+  <meta name="twitter:description" content="EMODnet Biology Dataspice Tutorial"/>
   <meta name="twitter:url" content="http://annakrystalli.me/emodnet-dataspice-tutorial/"/>
   <meta name="twitter:image" content="https://repository-images.githubusercontent.com/257969031/8d10c100-e84e-11ea-8200-6a1aa6d8a356"/>
   <meta name="twitter:image:alt" content="EMODnet logo"/>
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta property="og:title" content="EMODnet Dataspice Tutorial"/>
-  <meta property="og:description" content="EMODnet Dataspice Tutorial"/>
+  <meta property="og:title" content="EMODnet Biology Dataspice Tutorial"/>
+  <meta property="og:description" content="EMODnet Biology Dataspice Tutorial"/>
   <meta property="og:url" content="http://annakrystalli.me/emodnet-dataspice-tutorial/"/>
   <meta property="og:image" content="https://repository-images.githubusercontent.com/257969031/8d10c100-e84e-11ea-8200-6a1aa6d8a356"/>
   <meta property="og:image:alt" content="EMODnet logo"/>
   <meta property="og:type" content="website"/>
   <meta property="og:locale" content="en_US"/>
+  <script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+  <link href="site_libs/jsoneditor-5.25.6/jsoneditor.min.css" rel="stylesheet" />
+  <script src="site_libs/jsoneditor-5.25.6/jsoneditor.min.js"></script>
+  <script src="site_libs/jsonedit-binding-3.0.0/jsonedit.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2069,6 +2068,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <style type="text/css">
+  d-title {
+    padding-top: 13rem; /*so that navbar doesn't overlap fixed title */
+  }
+
   /* --------------Navbar-------------------- */
 
 
@@ -2155,6 +2158,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       margin: 10px 14px; 
     }
   }
+
+
+  .box-shadow {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+  }
+
   </style>
   <!--/radix_placeholder_site_in_header-->
 
@@ -2167,7 +2178,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"EMODnet Biology Dataspice Tutorial","description":"An Introduction to using R package Dataspice to collect metadata for EMODnet Biology Data Products","authors":[{"author":"Anna Krystalli, Ph.D.","authorURL":"https://annakrystalli.me","affiliation":"University of Sheffield, <br> Research Software Engineering","affiliationURL":"https://rse.shef.ac.uk/","orcidID":""}],"publishedDate":"2022-02-25T00:00:00.000+00:00","citationText":"Ph.D., 2022"}
+{"title":"EMODnet Biology Dataspice Tutorial","description":"An Introduction to using R package Dataspice to collect metadata for EMODnet Biology Data Products","authors":[{"author":"Anna Krystalli, Ph.D.","authorURL":"https://annakrystalli.me","affiliation":"University of Sheffield, <br> Research Software Engineering","affiliationURL":"https://rse.shef.ac.uk/","orcidID":""}],"publishedDate":"2022-02-28T00:00:00.000+00:00","citationText":"Ph.D., 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2204,7 +2215,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="d-byline">
   Anna Krystalli, Ph.D. <a href="https://annakrystalli.me" class="uri">https://annakrystalli.me</a> (University of Sheffield, <br> Research Software Engineering)<a href="https://rse.shef.ac.uk/" class="uri">https://rse.shef.ac.uk/</a>
   
-<br/>2022-02-25
+<br/>2022-02-28
 </div>
 
 <div class="d-article">
@@ -2221,6 +2232,25 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li><a href="#introduction">Introduction</a>
 <ul>
 <li><a href="#dataspice-workflow"><code>dataspice</code> workflow</a></li>
+<li><a href="#example-materials">Example materials</a></li>
+</ul></li>
+<li><a href="#create-dataspice-metadata-files">Create dataspice metadata files</a></li>
+<li><a href="#record-metadata">Record metadata</a>
+<ul>
+<li><a href="#creators.csv"><code>creators.csv</code></a></li>
+<li><a href="#access.csv"><code>access.csv</code></a></li>
+<li><a href="#biblio.csv"><code>biblio.csv</code></a></li>
+<li><a href="#attributes.csv"><code>attributes.csv</code></a></li>
+</ul></li>
+<li><a href="#create-metadata-json-ld-file">Create metadata json-ld file</a>
+<ul>
+<li><a href="#benthic-occurrences-habitat-maps-and-species-traits">Benthic occurrences, habitat maps, and species traits</a></li>
+</ul></li>
+<li><a href="#build-readme-site">Build README site</a>
+<ul>
+<li><a href="#enable-github-pages-to-serve-the-metadata-webpage">Enable GitHub Pages to serve the metadata webpage</a></li>
+<li><a href="#view-the-resulting-served-index.html-file-online">View the resulting served <code>index.html</code> file <span>online</span></a></li>
+<li><a href="#completed-metadata-files">Completed metadata files</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -2240,10 +2270,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p>To follow this tutorial, you will need to have <a href="https://cran.r-project.org/"><strong>a recent version of R</strong></a> and ideally <a href="https://www.rstudio.com/download"><strong>RStudio Desktop</strong></a> installed.</p>
 <p>You will also need to install package <code>dataspice</code> as well as a few additional helper packages.</p>
 <div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"dataspice"</span><span class='op'>)</span><span class='op'>)</span>
-</code></pre>
-</div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">&quot;dataspice&quot;</span>, <span class="st">&quot;here&quot;</span>, <span class="st">&quot;jsonlite&quot;</span>, <span class="st">&quot;listviewer&quot;</span>))</span></code></pre></div>
 </div>
 <h3 id="tutorial-materials">Tutorial Materials</h3>
 <p>You will also need to fork (make a copy of) and clone (download your fork) the example Data Product <a href="https://github.com/EMODnet/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits"><strong>EMODnet/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits</strong></a> I will be working with in this tutorial.</p>
@@ -2252,7 +2279,284 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="https://github.com/ropensci/dataspice/raw/main/man/figures/dataspice_workflow.png" width="100%" /></p>
 </div>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<h3 id="example-materials">Example materials</h3>
+<p>The example Data Product I’m working with is <a href="https://github.com/EMODnet/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits"><strong>EMODnet/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits</strong></a> and has the following structure:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>├── EMODnet_occs_habs.Rproj</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>├── README.html</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>├── README.md</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>├── analysis</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>│   ├── benthic data habitat matching.Rmd</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>│   ├── benthic species habitat dashboards.Rmd</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>│   └── species and traits.Rmd</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>├── data</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>│   ├── derived_data</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>│   └── raw_data</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>├── docs</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>│   ├── benthic<span class="sc">-</span>data<span class="sc">-</span>habitat<span class="sc">-</span>matching.html</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>│   ├── benthic<span class="sc">-</span>data<span class="sc">-</span>habitat<span class="sc">-</span>matching.pdf</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>│   ├── benthic<span class="sc">-</span>species<span class="sc">-</span>habitat<span class="sc">-</span>dashboards.html</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>│   ├── benthic<span class="sc">-</span>species<span class="sc">-</span>habitat<span class="sc">-</span>dashboards.pdf</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>│   ├── species<span class="sc">-</span>and<span class="sc">-</span>traits.html</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>│   └── species<span class="sc">-</span>and<span class="sc">-</span>traits.pdf</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>├── product</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>│   ├── benthic_sampling_event_habitat_summaries.csv</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>│   ├── benthic_specicies_habitat_summaries.csv</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>│   └── species_hab_plots</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>└── scripts</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    ├── biotic traits data.R</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    ├── get_event_habitats.R</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    ├── get_species_habitats.R</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    ├── get_worms_fgrp.R</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    └── plot_species_habitats.R</span></code></pre></div>
+<p>Generally, it is not necessary to document raw or intermediate data files. It <strong>is important to document any outputs or analytical data produced</strong>.</p>
+<p>We therefore focus on the contents of the <code>product/</code> directory.</p>
+<p>In particular, we will document the following two files:</p>
+<ul>
+<li><strong><code>benthic_sampling_event_habitat_summaries.csv</code></strong></li>
+<li><strong><code>benthic_specicies_habitat_summaries.csv</code></strong></li>
+</ul>
+<h2 id="create-dataspice-metadata-files">Create dataspice metadata files</h2>
+<p>We’ll <strong>start by creating the basic metadata <code>.csv</code> files</strong> in which to collect metadata related to our example dataset using function <strong><code>dataspice::create_spice()</code></strong>.</p>
+<p>The default behaviour of the function (called without providing a <code>dir</code> argument), would create a <code>metadata</code> directory in the <code>data</code> directory in the root of a project.</p>
+<p>However, because I want to document the files in the <code>product</code> directory, I override the default write out location by providing a <code>dir</code> argument.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>dataspice<span class="sc">::</span><span class="fu">create_spice</span>(<span class="at">dir =</span> <span class="st">&quot;product&quot;</span>)</span></code></pre></div>
+</div>
+<p>This <strong>creates a <code>metadata</code> directory in the project’s <code>product</code> directory</strong> containing <strong>4 <code>.csv</code> files</strong> in which to record metadata.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre><code>product
+├── benthic_sampling_event_habitat_summaries.csv
+├── benthic_specicies_habitat_summaries.csv
+├── metadata
+│   ├── access.csv
+│   ├── attributes.csv
+│   ├── biblio.csv
+│   ├── creators.csv
+│   └── dataspice.json
+└── species_hab_plots
+    ├── Aphia103228_habitat_plot.pdf
+    └── Aphia141433_habitat_plot.pdf</code></pre>
+</div>
+<ul>
+<li><strong>access.csv</strong>: record details about where your data can be accessed.</li>
+<li><strong>attributes.csv</strong>: record details about the variables in your data.</li>
+<li><strong>biblio.csv</strong>: record dataset level metadata like title, description, licence and spatial and temoral coverage.</li>
+<li><strong>creators.csv</strong>: record creator details.</li>
+</ul>
+<h2 id="record-metadata">Record metadata</h2>
+<h3 id="creators.csv"><code>creators.csv</code></h3>
+<blockquote>
+<p>The <code>creators.csv</code> contains details of the <strong>dataset creators</strong>.</p>
+</blockquote>
+<h4 id="fields-to-collect">Fields to collect:</h4>
+<ul>
+<li><strong>id:</strong> ORCID or another ID.</li>
+<li><strong>name:</strong> The name of the creator.</li>
+<li><strong>affilitation:</strong> Affiliation of the creator.</li>
+</ul>
+<p>Let’s start with a quick and easy file to complete, the <strong>creators</strong>. We can <strong>open and edit</strong> the file in an <strong>interactive shiny app</strong> using <strong><code>dataspice::edit_creators()</code></strong>.</p>
+<p>The default behaviour of the function (called without providing a <code>metadata_dir</code> argument) will look for a <code>creators.csv</code> file in the <code>data/</code> directory. However, because we want to override this behaviour, we provide an explicit path for the metadata directory.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>metadata_dir <span class="ot">&lt;-</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">&quot;product&quot;</span>, <span class="st">&quot;metadata&quot;</span>)</span></code></pre></div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>dataspice<span class="sc">::</span><span class="fu">edit_creators</span>(<span class="at">metadata_dir =</span> metadata_dir)</span></code></pre></div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/edit_creators.png" width="100%" /></p>
+</div>
+<p>Once details are complete, remember to click on <strong>Save</strong> to save the changes to the <code>creators.csv</code>.</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/edit_creators_cmpl.png" width="100%" /></p>
+</div>
+<h3 id="access.csv"><code>access.csv</code></h3>
+<blockquote>
+<p>The <code>access.csv</code> contains details about <strong>where the data can be accessed</strong>.</p>
+</blockquote>
+<h4 id="fields-to-collect-1">Fields to collect:</h4>
+<ul>
+<li><strong>fileName:</strong> The filename of the input data file(s).</li>
+<li><strong>name:</strong> A human readable name for the file.</li>
+<li><strong>contentUrl:</strong> A url to where the data is hosted, if applicable.</li>
+</ul>
+<p>Before manually completing any details in the <code>access.csv</code>, we can use <code>dataspice</code>’s dedicated function <strong><code>prep_access()</code> to extract relevant information</strong> from the data files themselves.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>dataspice<span class="sc">::</span><span class="fu">prep_access</span>(<span class="at">data_path =</span> <span class="st">&quot;product&quot;</span>, <span class="at">access_path =</span> <span class="st">&quot;product/metadata/access.csv&quot;</span>)</span></code></pre></div>
+</div>
+<pre><code>The following fileNames have been added to the access file: benthic_sampling_event_habitat_summaries.csv, benthic_specicies_habitat_summaries.csv</code></pre>
+<p>Next, we can <strong>use function <code>edit_access()</code></strong> to view and edit the contents of <code>access.csv</code>.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>dataspice<span class="sc">::</span><span class="fu">edit_access</span>(metadata_dir)</span></code></pre></div>
+</div>
+<p>Remember to click on <strong>Save</strong> when you’re done editing.</p>
+<p>Otherwise, as the files are just csvs, you can edit them in your favourite editor instead.</p>
+<p><br></p>
+<h3 id="biblio.csv"><code>biblio.csv</code></h3>
+<blockquote>
+<p>The <code>biblio.csv</code> contains dataset level metadata like <strong>title</strong>, <strong>description</strong>, <strong>licence</strong> and <strong>spatial</strong> and <strong>temporal coverage</strong>.</p>
+</blockquote>
+<h4 id="fields-to-collect-2">Fields to collect:</h4>
+<h5 id="bibliographic-metadata">Bibliographic metadata</h5>
+<ul>
+<li><strong>title:</strong> Title of the dataset(s) described.</li>
+<li><strong>description:</strong> Description of the dataset(s), e.g. the abstract.</li>
+<li><strong>datePublished:</strong> The date published in ISO 8601 format”(YYYY-MM-DD).</li>
+<li><strong>citation:</strong> Citation to a related work, such as a reference publication.</li>
+<li><strong>keywords:</strong> Keywords, separated by commas, associated with the dataset(s) described.</li>
+<li><strong>license:</strong> License under which (meta)data are published. Should be CC-BY 4.0 according to EMODnet policy.</li>
+<li><strong>funder:</strong> Name of funders associated with the work through which data where generated.</li>
+</ul>
+<h5 id="spatial-coverage-metadata">Spatial Coverage metadata</h5>
+<ul>
+<li><strong>geographicDescription:</strong> Description of the area of study, i.e., Crater Lake.</li>
+<li><strong>northBoundCoord:</strong> Southern latitudinal boundary of the data coverage area. For example 37.42242.</li>
+<li><strong>eastBoundCoord:</strong> Eastern longitudinal boundary of the data coverage area. For example -122.08585.</li>
+<li><strong>southBoundCoord:</strong> Northern latitudinal boundary of the data coverage area.</li>
+<li><strong>westBoundCoord:</strong> Western longitudinal boundary of the data coverage area.</li>
+<li><strong>wktString:</strong> Well-known Text (WKT) formatted representation of geometry. see: <a href="https://ropensci.org/tutorials/wellknown_tutorial/">pkg <code>wellknown</code></a> for details.</li>
+</ul>
+<p><em>To provide a single point to describe the spatial aspect of the dataset, provide the same coordinates for east-west and north-south boundary definition.</em></p>
+<h5 id="temporal-coverage-metadata">Temporal Coverage metadata</h5>
+<ul>
+<li><strong>startDate:</strong> The start date of the data temporal coverage in ISO 8601 format (YYYY-MM-DD).</li>
+<li><strong>endDate:</strong> The end date of the data temporal coverage in ISO 8601 format (YYYY-MM-DD).</li>
+</ul>
+<p>Before we start filling this table in, we can use some base R functions to extract some of the information we require from the data itself. In particular we can <strong>use function <code>range()</code> to extract the temporal and spatial extents of our data from columns containing temporal and spatial data.</strong></p>
+<p>Such information is contained in <code>benthic_abundance_sampling_events_seabed_habs.csv</code> in the <code>data/derived_data</code> directory.</p>
+<div class="layout-chunk" data-layout="l-body">
+
+</div>
+<h4 id="get-temporal-extent">Get <strong>temporal extent</strong></h4>
+<p>Although dates are stored as a text string, <strong>because they are in ISO format (YYYY-MM-DD), sorting them results in correct chronological ordering</strong>. If your temporal data is not in ISO format, consider converting them (see package <code>lubridate</code>)</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">range</span>(sampling_events<span class="sc">$</span>datecollected, <span class="at">na.rm =</span> <span class="cn">TRUE</span>) </span></code></pre></div>
+<pre><code>[1] &quot;1980-03-17T00:00:00Z&quot; &quot;2018-07-04T00:00:00Z&quot;</code></pre>
+</div>
+<h4 id="get-geographical-extent">Get <strong>geographical extent</strong></h4>
+<p>The lat/lon coordinates are in decimal degrees which again are easy to sort or calculate the range in each dimension.</p>
+<h5 id="southnorth-boundaries">South/North boundaries</h5>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">range</span>(sampling_events<span class="sc">$</span>decimallatitude)</span></code></pre></div>
+<pre><code>[1] 43.34082 73.63362</code></pre>
+</div>
+<h5 id="westeast-boundaries">West/East boundaries</h5>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">range</span>(sampling_events<span class="sc">$</span>decimallongitude)</span></code></pre></div>
+<pre><code>[1] -9.39937 35.22617</code></pre>
+</div>
+<p><em>NB: you can also supply the geographic boundaries of your data as a single <a href="https://en.wikipedia.org/wiki/Well-known_text">well-known text string</a> in field <code>wktString</code> instead of supplying the four boundary coordinates.</em></p>
+<p>Now that we’ve got the values for our temporal and spatial extents, we can <strong>complete the rest of the fields in the <code>biblio.csv</code> file using function <code>dataspice::edit_biblio()</code></strong>.</p>
+<div class="alert alert-info">
+<p>A lot of the rest of the information, I’ve taken from the data product <a href="https://www.emodnet-biology.eu/data-catalog?module=dataset&amp;dasid=6620"><strong>metadata page on the data catalogue</strong></a>. Ideally, the workflow would work the other way around, i.e. the data is collected by the data product producer and is then much more easily ingested into the data catalogue.</p>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>dataspice<span class="sc">::</span><span class="fu">edit_biblio</span>(metadata_dir)</span></code></pre></div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/edit_biblio.png" width="100%" /></p>
+</div>
+<h3 id="attributes.csv"><code>attributes.csv</code></h3>
+<blockquote>
+<p>The <code>attributes.csv</code> contains details about the <strong>variables</strong> in your data. This is critical metadata to ensure data is understood and used correctly.</p>
+</blockquote>
+<h4 id="fields-to-collect-3">Fields to collect:</h4>
+<ul>
+<li><strong>fileName:</strong> The name of the data file(s) the variable is found in.</li>
+<li><strong>variableName:</strong> The name of the measured variable.</li>
+<li><strong>description:</strong> A written description of the variable measured.</li>
+<li><strong>unitText:</strong> The units in which the variable was measured.</li>
+</ul>
+<p>Again, <code>dataspice</code> provides functionality to <strong>populate the <code>attributes.csv</code> by extracting the variable names from our data file</strong> using function <strong><code>dataspice::prep_attributes()</code></strong>.</p>
+<p>The functions is vectorised and maps over each <code>.csv</code> file in our <code>product/</code> folder and populates the <code>fileName</code> and <code>variableName</code> columns.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>dataspice<span class="sc">::</span><span class="fu">prep_attributes</span>(<span class="at">data_path =</span> <span class="st">&quot;product&quot;</span>, </span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>                           <span class="at">attributes_path =</span> <span class="fu">file.path</span>(metadata_dir, <span class="st">&quot;attributes.csv&quot;</span>))</span></code></pre></div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/edit_attributes.png" width="100%" /></p>
+</div>
+<p>All column names in <strong><code>benthic_sampling_event_habitat_summaries.csv</code></strong> - <strong><code>benthic_specicies_habitat_summaries.csv</code></strong> have been successfully extracted into the <code>variableName</code> column of <code>attributes.csv</code>.</p>
+<p>Now, we can complete the <code>description</code> and <code>unitText</code> fields using</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>dataspice<span class="sc">::</span><span class="fu">edit_attributes</span>(metadata_dir)</span></code></pre></div>
+</div>
+<p><strong><em>Note:</em></strong> <em>Because this is just a demo and I am not an expert in the data, the description is just a more readable version of each variable name and there are no units. This points to the importance of such metadata being produced by someone who is knowledgeable about the data, in order to ensure accuracy of descriptions.</em></p>
+<h2 id="create-metadata-json-ld-file">Create metadata json-ld file</h2>
+<p>Now that all our metadata files are complete, we can <strong>compile it all into a structured <code>dataspice.json</code> file</strong> in our <code>product/metadata/</code> folder.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>dataspice<span class="sc">::</span><span class="fu">write_spice</span>(metadata_dir)</span></code></pre></div>
+</div>
+<p>This function takes all the information collected in the csv files and compiles it into a json-ld, whose structure is compliant with schema.org dataset metadata standard.</p>
+<p><strong>Publishing this file on the web means it will be indexed by Google Datasets search!</strong> 😃 👍</p>
+<h4 id="making-use-of-the-metadata-in-dataspice.json">Making use of the metadata in <code>dataspice.json</code></h4>
+<p>Generating the <code>dataspice.json</code> file means we now have all our metadata in a standardised, interoperable, machine readable format allowing to build further automation from it.</p>
+<h5 id="reading-into-r">Reading into R</h5>
+<p>We can for example, load it into R and review it:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>dataspice_lst <span class="ot">&lt;-</span> jsonlite<span class="sc">::</span><span class="fu">read_json</span>(<span class="fu">file.path</span>(metadata_dir, <span class="st">&quot;dataspice.json&quot;</span>))</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>listviewer<span class="sc">::</span><span class="fu">jsonedit</span>(dataspice_lst)</span></code></pre></div>
+<div id="htmlwidget-45e2460326f1f5506da4" style="width:624px;height:384px;" class="jsonedit html-widget"></div>
+<script type="application/json" data-for="htmlwidget-45e2460326f1f5506da4">{"x":{"data":{"@context":"http://schema.org","type":"Dataset","name":"Benthic occurrences, habitat maps, and species traits","creator":[{"type":"Person","id":"0000-0003-3183-8116","email":"t.j.webb@sheffield.ac.uk","affiliation":"University of Sheffield","name":"Tom J. Webb"}],"description":"This data product links occurrences of benthic invertebrates from the EMODnet benthic numerical abundance product to two complementary seabed habitat products: the EMODnet broadscale habitat map 2019 (Vasquez et al., 2020), and Wilson et al.'s (2018) synthetic map of the north-west European Shelf sedimentary environment. We also process and incorporate qualitative information on the habitat and sediment preferences of species from the Biological Traits Information Catalogue BIOTIC database.","datePublished":"2021-04-07","keywords":["Marine/Coastal","Benthos","Habitat (Ecology)","Marine","Ocean floor"],"funder":"European Marine Observation and Data Network- Biology III","temporalCoverage":"1980-03-17/2018-07-04","license":"CC-BY 4.0","spatialCoverage":{"type":"Place","name":"European Seas","geo":{"type":"GeoShape","box":"73.63362 -9.39937 43.34082 35.22617"}},"variableMeasured":[{"type":"PropertyValue","unitText":[],"name":"total_events","description":"total events"},{"type":"PropertyValue","unitText":[],"name":"GravelD50","description":"GravelD50"},{"type":"PropertyValue","unitText":[],"name":"GravelPercent","description":"GravelPercent"},{"type":"PropertyValue","unitText":[],"name":"log_D50","description":"log D50"},{"type":"PropertyValue","unitText":[],"name":"MudPercent","description":"MudPercent"},{"type":"PropertyValue","unitText":[],"name":"Rock10cm","description":"Rock10cm"},{"type":"PropertyValue","unitText":[],"name":"Rock50cm","description":"Rock50cm"},{"type":"PropertyValue","unitText":[],"name":"SandD50","description":"SandD50"},{"type":"PropertyValue","unitText":[],"name":"SandPercent","description":"SandPercent"},{"type":"PropertyValue","unitText":[],"name":"TotalD50","description":"TotalD50"},{"type":"PropertyValue","unitText":[],"name":"Energy_High energy","description":"Energy High energy"},{"type":"PropertyValue","unitText":[],"name":"Energy_Low energy","description":"Energy Low energy"},{"type":"PropertyValue","unitText":[],"name":"Energy_Moderate energy","description":"Energy Moderate energy"},{"type":"PropertyValue","unitText":[],"name":"Energy_No energy information","description":"Energy No energy information"},{"type":"PropertyValue","unitText":[],"name":"Energy_NA","description":"Energy NA"},{"type":"PropertyValue","unitText":[],"name":"Biozone_Arctic lower bathyal","description":"Biozone Arctic lower bathyal"},{"type":"PropertyValue","unitText":[],"name":"Biozone_Arctic mid bathyal","description":"Biozone Arctic mid bathyal"},{"type":"PropertyValue","unitText":[],"name":"Biozone_Arctic upper abyssal","description":"Biozone Arctic upper abyssal"},{"type":"PropertyValue","unitText":[],"name":"Biozone_Atlantic upper bathyal","description":"Biozone Atlantic upper bathyal"},{"type":"PropertyValue","unitText":[],"name":"Biozone_Atlanto-Arctic upper bathyal","description":"Biozone Atlanto-Arctic upper bathyal"},{"type":"PropertyValue","unitText":[],"name":"Biozone_Deep circalittoral","description":"Biozone Deep circalittoral"},{"type":"PropertyValue","unitText":[],"name":"Biozone_Infralittoral","description":"Biozone Infralittoral"},{"type":"PropertyValue","unitText":[],"name":"Biozone_Shallow circalittoral","description":"Biozone Shallow circalittoral"},{"type":"PropertyValue","unitText":[],"name":"Biozone_NA","description":"Biozone NA"},{"type":"PropertyValue","unitText":[],"name":"Substrate_Coarse substrate","description":"Substrate Coarse substrate"},{"type":"PropertyValue","unitText":[],"name":"Substrate_Fine mud","description":"Substrate Fine mud"},{"type":"PropertyValue","unitText":[],"name":"Substrate_Fine mud or Sandy mud or Muddy sand","description":"Substrate Fine mud or Sandy mud or Muddy sand"},{"type":"PropertyValue","unitText":[],"name":"Substrate_Mixed sediment","description":"Substrate Mixed sediment"},{"type":"PropertyValue","unitText":[],"name":"Substrate_Muddy sand","description":"Substrate Muddy sand"},{"type":"PropertyValue","unitText":[],"name":"Substrate_Rock or other hard substrata","description":"Substrate Rock or other hard substrata"},{"type":"PropertyValue","unitText":[],"name":"Substrate_Sand","description":"Substrate Sand"},{"type":"PropertyValue","unitText":[],"name":"Substrate_Sandy mud","description":"Substrate Sandy mud"},{"type":"PropertyValue","unitText":[],"name":"Substrate_Sandy mud or Muddy sand","description":"Substrate Sandy mud or Muddy sand"},{"type":"PropertyValue","unitText":[],"name":"Substrate_Seabed","description":"Substrate Seabed"},{"type":"PropertyValue","unitText":[],"name":"Substrate_Sediment","description":"Substrate Sediment"},{"type":"PropertyValue","unitText":[],"name":"Substrate_NA","description":"Substrate NA"},{"type":"PropertyValue","unitText":[],"name":"Salinity_Euhaline","description":"Salinity Euhaline"},{"type":"PropertyValue","unitText":[],"name":"Salinity_Mesohaline","description":"Salinity Mesohaline"},{"type":"PropertyValue","unitText":[],"name":"Salinity_Oligohaline","description":"Salinity Oligohaline"},{"type":"PropertyValue","unitText":[],"name":"Salinity_Polyhaline","description":"Salinity Polyhaline"},{"type":"PropertyValue","unitText":[],"name":"Salinity_NA","description":"Salinity NA"},{"type":"PropertyValue","unitText":[],"name":"Oxygen_NA","description":"Oxygen NA"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A3.1","description":"EUNIScomb A3.1"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A3.2","description":"EUNIScomb A3.2"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A3.3","description":"EUNIScomb A3.3"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A3.4","description":"EUNIScomb A3.4"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A3.5","description":"EUNIScomb A3.5"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A3.6","description":"EUNIScomb A3.6"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A4","description":"EUNIScomb A4"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A4.1","description":"EUNIScomb A4.1"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A4.2","description":"EUNIScomb A4.2"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A4.27","description":"EUNIScomb A4.27"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A4.3","description":"EUNIScomb A4.3"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A4.33","description":"EUNIScomb A4.33"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A4.4","description":"EUNIScomb A4.4"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A4.5","description":"EUNIScomb A4.5"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A4.6","description":"EUNIScomb A4.6"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5","description":"EUNIScomb A5"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.13","description":"EUNIScomb A5.13"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.14","description":"EUNIScomb A5.14"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.15","description":"EUNIScomb A5.15"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.23","description":"EUNIScomb A5.23"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.23 or A5.24","description":"EUNIScomb A5.23 or A5.24"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.24","description":"EUNIScomb A5.24"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.24 or A5.33 or A5.34","description":"EUNIScomb A5.24 or A5.33 or A5.34"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.25","description":"EUNIScomb A5.25"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.25 or A5.26","description":"EUNIScomb A5.25 or A5.26"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.26","description":"EUNIScomb A5.26"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.26 or A5.35 or A5.36","description":"EUNIScomb A5.26 or A5.35 or A5.36"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.27","description":"EUNIScomb A5.27"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.27 or A5.37","description":"EUNIScomb A5.27 or A5.37"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.33","description":"EUNIScomb A5.33"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.34","description":"EUNIScomb A5.34"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.35","description":"EUNIScomb A5.35"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.36","description":"EUNIScomb A5.36"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.37","description":"EUNIScomb A5.37"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.43","description":"EUNIScomb A5.43"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.44","description":"EUNIScomb A5.44"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A5.45","description":"EUNIScomb A5.45"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A6","description":"EUNIScomb A6"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A6.11","description":"EUNIScomb A6.11"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A6.2","description":"EUNIScomb A6.2"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A6.3 or A6.4","description":"EUNIScomb A6.3 or A6.4"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_A6.5","description":"EUNIScomb A6.5"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_Na","description":"EUNIScomb Na"},{"type":"PropertyValue","unitText":[],"name":"EUNIScomb_NA","description":"EUNIScomb NA"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Abyssal","description":"MSFD BBHT Abyssal"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Circalittoral coarse sediment","description":"MSFD BBHT Circalittoral coarse sediment"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Circalittoral mixed sediment","description":"MSFD BBHT Circalittoral mixed sediment"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Circalittoral mud","description":"MSFD BBHT Circalittoral mud"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Circalittoral mud or Circalittoral sand","description":"MSFD BBHT Circalittoral mud or Circalittoral sand"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Circalittoral rock and biogenic reef","description":"MSFD BBHT Circalittoral rock and biogenic reef"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Circalittoral sand","description":"MSFD BBHT Circalittoral sand"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Infralittoral coarse sediment","description":"MSFD BBHT Infralittoral coarse sediment"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Infralittoral mixed sediment","description":"MSFD BBHT Infralittoral mixed sediment"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Infralittoral mud","description":"MSFD BBHT Infralittoral mud"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Infralittoral mud or Infralittoral sand","description":"MSFD BBHT Infralittoral mud or Infralittoral sand"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Infralittoral rock and biogenic reef","description":"MSFD BBHT Infralittoral rock and biogenic reef"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Infralittoral sand","description":"MSFD BBHT Infralittoral sand"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Lower bathyal sediment","description":"MSFD BBHT Lower bathyal sediment"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Na","description":"MSFD BBHT Na"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Offshore circalittoral coarse sediment","description":"MSFD BBHT Offshore circalittoral coarse sediment"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Offshore circalittoral mixed sediment","description":"MSFD BBHT Offshore circalittoral mixed sediment"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Offshore circalittoral mud","description":"MSFD BBHT Offshore circalittoral mud"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Offshore circalittoral mud or Offshore circalittoral sand","description":"MSFD BBHT Offshore circalittoral mud or Offshore circalittoral sand"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Offshore circalittoral rock and biogenic reef","description":"MSFD BBHT Offshore circalittoral rock and biogenic reef"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Offshore circalittoral sand","description":"MSFD BBHT Offshore circalittoral sand"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Upper bathyal rock and biogenic reef","description":"MSFD BBHT Upper bathyal rock and biogenic reef"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_Upper bathyal sediment","description":"MSFD BBHT Upper bathyal sediment"},{"type":"PropertyValue","unitText":[],"name":"MSFD_BBHT_NA","description":"MSFD BBHT NA"},{"type":"PropertyValue","unitText":[],"name":"AphiaID","description":"AphiaID"},{"type":"PropertyValue","unitText":[],"name":"total_occ","description":"total occ"},{"type":"PropertyValue","unitText":[],"name":"total_ab","description":"total ab"},{"type":"PropertyValue","unitText":[],"name":"mean_ab","description":"mean ab"},{"type":"PropertyValue","unitText":[],"name":"inf_epi","description":"inf epi"},{"type":"PropertyValue","unitText":[],"name":"plank_larv","description":"plank larv"},{"type":"PropertyValue","unitText":[],"name":"Bedrock","description":"Bedrock"},{"type":"PropertyValue","unitText":[],"name":"Cobbles","description":"Cobbles"},{"type":"PropertyValue","unitText":[],"name":"Large_VLarge_Boulders","description":"Large VLarge Boulders"},{"type":"PropertyValue","unitText":[],"name":"Small_Boulders","description":"Small Boulders"},{"type":"PropertyValue","unitText":[],"name":"Mud","description":"Mud"},{"type":"PropertyValue","unitText":[],"name":"Muddy_gravel","description":"Muddy gravel"},{"type":"PropertyValue","unitText":[],"name":"Muddy_sand","description":"Muddy sand"},{"type":"PropertyValue","unitText":[],"name":"Sandy_mud","description":"Sandy mud"},{"type":"PropertyValue","unitText":[],"name":"Coarse_sand","description":"Coarse sand"},{"type":"PropertyValue","unitText":[],"name":"Fine_sand","description":"Fine sand"},{"type":"PropertyValue","unitText":[],"name":"Other_species","description":"Other species"},{"type":"PropertyValue","unitText":[],"name":"Pebbles","description":"Pebbles"},{"type":"PropertyValue","unitText":[],"name":"Artificial","description":"Artificial"},{"type":"PropertyValue","unitText":[],"name":"Caves","description":"Caves"},{"type":"PropertyValue","unitText":[],"name":"Overhangs","description":"Overhangs"},{"type":"PropertyValue","unitText":[],"name":"Gravel_shingle","description":"Gravel shingle"},{"type":"PropertyValue","unitText":[],"name":"Algae","description":"Algae"},{"type":"PropertyValue","unitText":[],"name":"Mixed","description":"Mixed"},{"type":"PropertyValue","unitText":[],"name":"Salt_marsh","description":"Salt marsh"},{"type":"PropertyValue","unitText":[],"name":"Seagrass","description":"Seagrass"},{"type":"PropertyValue","unitText":[],"name":"Biogenic_reef","description":"Biogenic reef"},{"type":"PropertyValue","unitText":[],"name":"Under_boulders","description":"Under boulders"},{"type":"PropertyValue","unitText":[],"name":"Crevices","description":"Crevices"},{"type":"PropertyValue","unitText":[],"name":"Rockpools","description":"Rockpools"},{"type":"PropertyValue","unitText":[],"name":"Pelagic","description":"Pelagic"},{"type":"PropertyValue","unitText":[],"name":"Mud_grav_sand","description":"Mud grav sand"},{"type":"PropertyValue","unitText":[],"name":"Sand_grav_mud","description":"Sand grav mud"},{"type":"PropertyValue","unitText":[],"name":"Maerl","description":"Maerl"},{"type":"PropertyValue","unitText":[],"name":"Clay","description":"Clay"},{"type":"PropertyValue","unitText":[],"name":"Gravel_sand","description":"Gravel sand"},{"type":"PropertyValue","unitText":[],"name":"Mud_sand_gravel","description":"Mud sand gravel"},{"type":"PropertyValue","unitText":[],"name":"Strandline","description":"Strandline"}],"distribution":[{"type":"DataDownload","name":"benthic_sampling_event_habitat_summaries","contentUrl":"https://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6620","encodingFormat":"csv"},{"type":"DataDownload","name":"benthic_specicies_habitat_summaries","contentUrl":"https://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6620","encodingFormat":"csv"}]},"options":{"mode":"tree","modes":["code","form","text","tree","view"]}},"evals":[],"jsHooks":[]}</script>
+</div>
+<h5 id="presenting-metadata-in-rmarkdown">Presenting metadata in Rmarkdown</h5>
+<p>We could also have a standard markdown snippet the extracts metadata from the <code>dataspice.json</code> file and include it in a README.Rmd.</p>
+<p>For example, the following snippet in an Rmd document:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="do">### `r dataspice_lst$name`</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="do">##### Creator: `r dataspice_lst$creator[[1]]$name`</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a><span class="do">#### Data Product Description:</span></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a><span class="st">`</span><span class="at">r dataspice_lst$description</span><span class="st">`</span></span></code></pre></div>
+</div>
+<p>would render to the following in the html/md version:</p>
+<section id="benthic-occurrences-habitat-maps-and-species-traits" class="box-shadow">
+<h3>Benthic occurrences, habitat maps, and species traits</h3>
+<h5 id="creator-tom-j.-webb">Creator: Tom J. Webb</h5>
+<h4 id="data-product-description">Data Product Description:</h4>
+<p>This data product links occurrences of benthic invertebrates from the EMODnet benthic numerical abundance product to two complementary seabed habitat products: the EMODnet broadscale habitat map 2019 (Vasquez et al., 2020), and Wilson et al.’s (2018) synthetic map of the north-west European Shelf sedimentary environment. We also process and incorporate qualitative information on the habitat and sediment preferences of species from the Biological Traits Information Catalogue BIOTIC database.</p>
+</section>
+<p><br></p>
+<hr />
+<h2 id="build-readme-site">Build README site</h2>
+<p>Finally, we can <strong>use the <code>dataspice.json</code> file</strong> we just created to <strong>produce an informative README web page</strong> to include with our dataset for humans to enjoy! 🤩</p>
+<p>We use function <strong><code>dataspice::build_site()</code></strong> which <strong>creates file <code>index.html</code></strong> in the <code>docs/</code> folder of your project (which it creates if it doesn’t already exist).</p>
+<div class="layout-chunk" data-layout="l-body">
+
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>dataspice<span class="sc">::</span><span class="fu">build_site</span>(<span class="at">path =</span> <span class="fu">file.path</span>(metadata_dir, <span class="st">&quot;dataspice.json&quot;</span>))</span></code></pre></div>
+</div>
+<p><br></p>
+<h3 id="enable-github-pages-to-serve-the-metadata-webpage">Enable GitHub Pages to serve the metadata webpage</h3>
+<p>In the repository <strong>Settings</strong> page, select the <strong>Pages</strong> tab on left hand navigation panel.</p>
+<p>To enable GitHub pages, select the branch (<code>master</code>) and folder (<code>docs/</code>) containing the content to be served:</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/gh-pages.png" width="100%" /></p>
+</div>
+<p>It’s useful practice to add the url on the front matter of the repository:</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/repo.png" width="100%" /></p>
+</div>
+<h3 id="view-the-resulting-served-index.html-file-online">View the resulting served <code>index.html</code> file <a href="https://annakrystalli.me/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits/">online</a></h3>
+<p><br></p>
+<p>Here’s a screen shot!</p>
+<div class="box-shadow">
+<div class="layout-chunk" data-layout="l-body">
+<iframe src="dataspice/index.html" width="100%" height="400px" data-external="1">
+</iframe>
+</div>
+</div>
+<h3 id="completed-metadata-files">Completed metadata files</h3>
+<ul>
+<li><a href="https://github.com/annakrystalli/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits/blob/master/product/metadata/access.csv"><code>access.csv</code></a></li>
+<li><a href="https://github.com/annakrystalli/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits/blob/master/product/metadata/attributes.csv"><code>attributes.csv</code></a></li>
+<li><a href="https://github.com/annakrystalli/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits/blob/master/product/metadata/biblio.csv"><code>biblio.csv</code></a></li>
+<li><a href="https://github.com/annakrystalli/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits/blob/master/product/metadata/creators.csv"><code>creators.csv</code></a></li>
+</ul>
+<p>See the <a href="https://annakrystalli.me/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits/"><strong>whole repository</strong></a></p>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

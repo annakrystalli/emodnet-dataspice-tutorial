@@ -1,0 +1,258 @@
+"fileName","variableName","description","unitText"
+"benthic_sampling_event_habitat_summaries.csv","total_events","total events",NA
+"benthic_sampling_event_habitat_summaries.csv","GravelD50","GravelD50",NA
+"benthic_sampling_event_habitat_summaries.csv","GravelPercent","GravelPercent",NA
+"benthic_sampling_event_habitat_summaries.csv","log_D50","log D50",NA
+"benthic_sampling_event_habitat_summaries.csv","MudPercent","MudPercent",NA
+"benthic_sampling_event_habitat_summaries.csv","Rock10cm","Rock10cm",NA
+"benthic_sampling_event_habitat_summaries.csv","Rock50cm","Rock50cm",NA
+"benthic_sampling_event_habitat_summaries.csv","SandD50","SandD50",NA
+"benthic_sampling_event_habitat_summaries.csv","SandPercent","SandPercent",NA
+"benthic_sampling_event_habitat_summaries.csv","TotalD50","TotalD50",NA
+"benthic_sampling_event_habitat_summaries.csv","Energy_High energy","Energy High energy",NA
+"benthic_sampling_event_habitat_summaries.csv","Energy_Low energy","Energy Low energy",NA
+"benthic_sampling_event_habitat_summaries.csv","Energy_Moderate energy","Energy Moderate energy",NA
+"benthic_sampling_event_habitat_summaries.csv","Energy_No energy information","Energy No energy information",NA
+"benthic_sampling_event_habitat_summaries.csv","Energy_NA","Energy NA",NA
+"benthic_sampling_event_habitat_summaries.csv","Biozone_Arctic lower bathyal","Biozone Arctic lower bathyal",NA
+"benthic_sampling_event_habitat_summaries.csv","Biozone_Arctic mid bathyal","Biozone Arctic mid bathyal",NA
+"benthic_sampling_event_habitat_summaries.csv","Biozone_Arctic upper abyssal","Biozone Arctic upper abyssal",NA
+"benthic_sampling_event_habitat_summaries.csv","Biozone_Atlantic upper bathyal","Biozone Atlantic upper bathyal",NA
+"benthic_sampling_event_habitat_summaries.csv","Biozone_Atlanto-Arctic upper bathyal","Biozone Atlanto-Arctic upper bathyal",NA
+"benthic_sampling_event_habitat_summaries.csv","Biozone_Deep circalittoral","Biozone Deep circalittoral",NA
+"benthic_sampling_event_habitat_summaries.csv","Biozone_Infralittoral","Biozone Infralittoral",NA
+"benthic_sampling_event_habitat_summaries.csv","Biozone_Shallow circalittoral","Biozone Shallow circalittoral",NA
+"benthic_sampling_event_habitat_summaries.csv","Biozone_NA","Biozone NA",NA
+"benthic_sampling_event_habitat_summaries.csv","Substrate_Coarse substrate","Substrate Coarse substrate",NA
+"benthic_sampling_event_habitat_summaries.csv","Substrate_Fine mud","Substrate Fine mud",NA
+"benthic_sampling_event_habitat_summaries.csv","Substrate_Fine mud or Sandy mud or Muddy sand","Substrate Fine mud or Sandy mud or Muddy sand",NA
+"benthic_sampling_event_habitat_summaries.csv","Substrate_Mixed sediment","Substrate Mixed sediment",NA
+"benthic_sampling_event_habitat_summaries.csv","Substrate_Muddy sand","Substrate Muddy sand",NA
+"benthic_sampling_event_habitat_summaries.csv","Substrate_Rock or other hard substrata","Substrate Rock or other hard substrata",NA
+"benthic_sampling_event_habitat_summaries.csv","Substrate_Sand","Substrate Sand",NA
+"benthic_sampling_event_habitat_summaries.csv","Substrate_Sandy mud","Substrate Sandy mud",NA
+"benthic_sampling_event_habitat_summaries.csv","Substrate_Sandy mud or Muddy sand","Substrate Sandy mud or Muddy sand",NA
+"benthic_sampling_event_habitat_summaries.csv","Substrate_Seabed","Substrate Seabed",NA
+"benthic_sampling_event_habitat_summaries.csv","Substrate_Sediment","Substrate Sediment",NA
+"benthic_sampling_event_habitat_summaries.csv","Substrate_NA","Substrate NA",NA
+"benthic_sampling_event_habitat_summaries.csv","Salinity_Euhaline","Salinity Euhaline",NA
+"benthic_sampling_event_habitat_summaries.csv","Salinity_Mesohaline","Salinity Mesohaline",NA
+"benthic_sampling_event_habitat_summaries.csv","Salinity_Oligohaline","Salinity Oligohaline",NA
+"benthic_sampling_event_habitat_summaries.csv","Salinity_Polyhaline","Salinity Polyhaline",NA
+"benthic_sampling_event_habitat_summaries.csv","Salinity_NA","Salinity NA",NA
+"benthic_sampling_event_habitat_summaries.csv","Oxygen_NA","Oxygen NA",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A3.1","EUNIScomb A3.1",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A3.2","EUNIScomb A3.2",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A3.3","EUNIScomb A3.3",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A3.4","EUNIScomb A3.4",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A3.5","EUNIScomb A3.5",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A3.6","EUNIScomb A3.6",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A4","EUNIScomb A4",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A4.1","EUNIScomb A4.1",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A4.2","EUNIScomb A4.2",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A4.27","EUNIScomb A4.27",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A4.3","EUNIScomb A4.3",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A4.33","EUNIScomb A4.33",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A4.4","EUNIScomb A4.4",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A4.5","EUNIScomb A4.5",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A4.6","EUNIScomb A4.6",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5","EUNIScomb A5",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.13","EUNIScomb A5.13",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.14","EUNIScomb A5.14",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.15","EUNIScomb A5.15",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.23","EUNIScomb A5.23",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.23 or A5.24","EUNIScomb A5.23 or A5.24",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.24","EUNIScomb A5.24",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.24 or A5.33 or A5.34","EUNIScomb A5.24 or A5.33 or A5.34",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.25","EUNIScomb A5.25",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.25 or A5.26","EUNIScomb A5.25 or A5.26",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.26","EUNIScomb A5.26",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.26 or A5.35 or A5.36","EUNIScomb A5.26 or A5.35 or A5.36",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.27","EUNIScomb A5.27",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.27 or A5.37","EUNIScomb A5.27 or A5.37",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.33","EUNIScomb A5.33",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.34","EUNIScomb A5.34",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.35","EUNIScomb A5.35",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.36","EUNIScomb A5.36",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.37","EUNIScomb A5.37",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.43","EUNIScomb A5.43",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.44","EUNIScomb A5.44",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A5.45","EUNIScomb A5.45",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A6","EUNIScomb A6",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A6.11","EUNIScomb A6.11",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A6.2","EUNIScomb A6.2",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A6.3 or A6.4","EUNIScomb A6.3 or A6.4",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_A6.5","EUNIScomb A6.5",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_Na","EUNIScomb Na",NA
+"benthic_sampling_event_habitat_summaries.csv","EUNIScomb_NA","EUNIScomb NA",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Abyssal","MSFD BBHT Abyssal",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Circalittoral coarse sediment","MSFD BBHT Circalittoral coarse sediment",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Circalittoral mixed sediment","MSFD BBHT Circalittoral mixed sediment",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Circalittoral mud","MSFD BBHT Circalittoral mud",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Circalittoral mud or Circalittoral sand","MSFD BBHT Circalittoral mud or Circalittoral sand",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Circalittoral rock and biogenic reef","MSFD BBHT Circalittoral rock and biogenic reef",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Circalittoral sand","MSFD BBHT Circalittoral sand",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Infralittoral coarse sediment","MSFD BBHT Infralittoral coarse sediment",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Infralittoral mixed sediment","MSFD BBHT Infralittoral mixed sediment",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Infralittoral mud","MSFD BBHT Infralittoral mud",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Infralittoral mud or Infralittoral sand","MSFD BBHT Infralittoral mud or Infralittoral sand",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Infralittoral rock and biogenic reef","MSFD BBHT Infralittoral rock and biogenic reef",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Infralittoral sand","MSFD BBHT Infralittoral sand",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Lower bathyal sediment","MSFD BBHT Lower bathyal sediment",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Na","MSFD BBHT Na",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Offshore circalittoral coarse sediment","MSFD BBHT Offshore circalittoral coarse sediment",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Offshore circalittoral mixed sediment","MSFD BBHT Offshore circalittoral mixed sediment",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Offshore circalittoral mud","MSFD BBHT Offshore circalittoral mud",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Offshore circalittoral mud or Offshore circalittoral sand","MSFD BBHT Offshore circalittoral mud or Offshore circalittoral sand",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Offshore circalittoral rock and biogenic reef","MSFD BBHT Offshore circalittoral rock and biogenic reef",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Offshore circalittoral sand","MSFD BBHT Offshore circalittoral sand",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Upper bathyal rock and biogenic reef","MSFD BBHT Upper bathyal rock and biogenic reef",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_Upper bathyal sediment","MSFD BBHT Upper bathyal sediment",NA
+"benthic_sampling_event_habitat_summaries.csv","MSFD_BBHT_NA","MSFD BBHT NA",NA
+"benthic_specicies_habitat_summaries.csv","AphiaID","AphiaID",NA
+"benthic_specicies_habitat_summaries.csv","total_occ","total occ",NA
+"benthic_specicies_habitat_summaries.csv","total_ab","total ab",NA
+"benthic_specicies_habitat_summaries.csv","mean_ab","mean ab",NA
+"benthic_specicies_habitat_summaries.csv","inf_epi","inf epi",NA
+"benthic_specicies_habitat_summaries.csv","TotalD50","TotalD50",NA
+"benthic_specicies_habitat_summaries.csv","log_D50","log D50",NA
+"benthic_specicies_habitat_summaries.csv","GravelD50","GravelD50",NA
+"benthic_specicies_habitat_summaries.csv","GravelPercent","GravelPercent",NA
+"benthic_specicies_habitat_summaries.csv","MudPercent","MudPercent",NA
+"benthic_specicies_habitat_summaries.csv","Rock10cm","Rock10cm",NA
+"benthic_specicies_habitat_summaries.csv","Rock50cm","Rock50cm",NA
+"benthic_specicies_habitat_summaries.csv","SandD50","SandD50",NA
+"benthic_specicies_habitat_summaries.csv","SandPercent","SandPercent",NA
+"benthic_specicies_habitat_summaries.csv","Energy_Moderate energy","Energy Moderate energy",NA
+"benthic_specicies_habitat_summaries.csv","Energy_High energy","Energy High energy",NA
+"benthic_specicies_habitat_summaries.csv","Energy_Low energy","Energy Low energy",NA
+"benthic_specicies_habitat_summaries.csv","Energy_NA","Energy NA",NA
+"benthic_specicies_habitat_summaries.csv","Energy_No energy information","Energy No energy information",NA
+"benthic_specicies_habitat_summaries.csv","Biozone_Deep circalittoral","Biozone Deep circalittoral",NA
+"benthic_specicies_habitat_summaries.csv","Biozone_Infralittoral","Biozone Infralittoral",NA
+"benthic_specicies_habitat_summaries.csv","Biozone_Shallow circalittoral","Biozone Shallow circalittoral",NA
+"benthic_specicies_habitat_summaries.csv","Biozone_NA","Biozone NA",NA
+"benthic_specicies_habitat_summaries.csv","Biozone_Arctic lower bathyal","Biozone Arctic lower bathyal",NA
+"benthic_specicies_habitat_summaries.csv","Biozone_Arctic mid bathyal","Biozone Arctic mid bathyal",NA
+"benthic_specicies_habitat_summaries.csv","Biozone_Atlantic upper bathyal","Biozone Atlantic upper bathyal",NA
+"benthic_specicies_habitat_summaries.csv","Biozone_Atlanto-Arctic upper bathyal","Biozone Atlanto-Arctic upper bathyal",NA
+"benthic_specicies_habitat_summaries.csv","Biozone_Arctic upper abyssal","Biozone Arctic upper abyssal",NA
+"benthic_specicies_habitat_summaries.csv","Substrate_Coarse substrate","Substrate Coarse substrate",NA
+"benthic_specicies_habitat_summaries.csv","Substrate_Mixed sediment","Substrate Mixed sediment",NA
+"benthic_specicies_habitat_summaries.csv","Substrate_Sand","Substrate Sand",NA
+"benthic_specicies_habitat_summaries.csv","Substrate_NA","Substrate NA",NA
+"benthic_specicies_habitat_summaries.csv","Substrate_Fine mud","Substrate Fine mud",NA
+"benthic_specicies_habitat_summaries.csv","Substrate_Sandy mud","Substrate Sandy mud",NA
+"benthic_specicies_habitat_summaries.csv","Substrate_Fine mud or Sandy mud or Muddy sand","Substrate Fine mud or Sandy mud or Muddy sand",NA
+"benthic_specicies_habitat_summaries.csv","Substrate_Muddy sand","Substrate Muddy sand",NA
+"benthic_specicies_habitat_summaries.csv","Substrate_Rock or other hard substrata","Substrate Rock or other hard substrata",NA
+"benthic_specicies_habitat_summaries.csv","Substrate_Sandy mud or Muddy sand","Substrate Sandy mud or Muddy sand",NA
+"benthic_specicies_habitat_summaries.csv","Substrate_Seabed","Substrate Seabed",NA
+"benthic_specicies_habitat_summaries.csv","Substrate_Sediment","Substrate Sediment",NA
+"benthic_specicies_habitat_summaries.csv","Salinity_NA","Salinity NA",NA
+"benthic_specicies_habitat_summaries.csv","Salinity_Mesohaline","Salinity Mesohaline",NA
+"benthic_specicies_habitat_summaries.csv","Salinity_Oligohaline","Salinity Oligohaline",NA
+"benthic_specicies_habitat_summaries.csv","Salinity_Polyhaline","Salinity Polyhaline",NA
+"benthic_specicies_habitat_summaries.csv","Salinity_Euhaline","Salinity Euhaline",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.15","EUNIScomb A5.15",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.13","EUNIScomb A5.13",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.14","EUNIScomb A5.14",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.27","EUNIScomb A5.27",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.45","EUNIScomb A5.45",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_NA","EUNIScomb NA",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A6.5","EUNIScomb A6.5",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A3.5","EUNIScomb A3.5",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A3.6","EUNIScomb A3.6",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A4.6","EUNIScomb A4.6",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.23","EUNIScomb A5.23",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.23 or A5.24","EUNIScomb A5.23 or A5.24",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.24","EUNIScomb A5.24",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.24 or A5.33 or A5.34","EUNIScomb A5.24 or A5.33 or A5.34",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.25","EUNIScomb A5.25",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.26 or A5.35 or A5.36","EUNIScomb A5.26 or A5.35 or A5.36",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.33","EUNIScomb A5.33",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.34","EUNIScomb A5.34",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.36","EUNIScomb A5.36",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.37","EUNIScomb A5.37",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.43","EUNIScomb A5.43",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.44","EUNIScomb A5.44",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A4.1","EUNIScomb A4.1",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.35","EUNIScomb A5.35",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_Na","EUNIScomb Na",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A4.2","EUNIScomb A4.2",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5","EUNIScomb A5",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.25 or A5.26","EUNIScomb A5.25 or A5.26",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A6","EUNIScomb A6",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A6.2","EUNIScomb A6.2",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A6.3 or A6.4","EUNIScomb A6.3 or A6.4",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A3.2","EUNIScomb A3.2",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A3.1","EUNIScomb A3.1",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A6.11","EUNIScomb A6.11",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A3.3","EUNIScomb A3.3",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A4.3","EUNIScomb A4.3",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A4.27","EUNIScomb A4.27",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.26","EUNIScomb A5.26",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A4.33","EUNIScomb A4.33",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A4.5","EUNIScomb A4.5",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A4.4","EUNIScomb A4.4",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A3.4","EUNIScomb A3.4",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A5.27 or A5.37","EUNIScomb A5.27 or A5.37",NA
+"benthic_specicies_habitat_summaries.csv","EUNIScomb_A4","EUNIScomb A4",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Offshore circalittoral coarse sediment","MSFD BBHT Offshore circalittoral coarse sediment",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Circalittoral coarse sediment","MSFD BBHT Circalittoral coarse sediment",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Infralittoral coarse sediment","MSFD BBHT Infralittoral coarse sediment",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Offshore circalittoral mixed sediment","MSFD BBHT Offshore circalittoral mixed sediment",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Offshore circalittoral sand","MSFD BBHT Offshore circalittoral sand",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_NA","MSFD BBHT NA",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Lower bathyal sediment","MSFD BBHT Lower bathyal sediment",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Circalittoral mixed sediment","MSFD BBHT Circalittoral mixed sediment",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Circalittoral mud","MSFD BBHT Circalittoral mud",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Circalittoral mud or Circalittoral sand","MSFD BBHT Circalittoral mud or Circalittoral sand",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Circalittoral rock and biogenic reef","MSFD BBHT Circalittoral rock and biogenic reef",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Circalittoral sand","MSFD BBHT Circalittoral sand",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Infralittoral mixed sediment","MSFD BBHT Infralittoral mixed sediment",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Infralittoral mud","MSFD BBHT Infralittoral mud",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Infralittoral mud or Infralittoral sand","MSFD BBHT Infralittoral mud or Infralittoral sand",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Infralittoral rock and biogenic reef","MSFD BBHT Infralittoral rock and biogenic reef",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Infralittoral sand","MSFD BBHT Infralittoral sand",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Offshore circalittoral mud","MSFD BBHT Offshore circalittoral mud",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Na","MSFD BBHT Na",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Upper bathyal sediment","MSFD BBHT Upper bathyal sediment",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Upper bathyal rock and biogenic reef","MSFD BBHT Upper bathyal rock and biogenic reef",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Offshore circalittoral rock and biogenic reef","MSFD BBHT Offshore circalittoral rock and biogenic reef",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Abyssal","MSFD BBHT Abyssal",NA
+"benthic_specicies_habitat_summaries.csv","MSFD_BBHT_Offshore circalittoral mud or Offshore circalittoral sand","MSFD BBHT Offshore circalittoral mud or Offshore circalittoral sand",NA
+"benthic_specicies_habitat_summaries.csv","Oxygen_NA","Oxygen NA",NA
+"benthic_specicies_habitat_summaries.csv","plank_larv","plank larv",NA
+"benthic_specicies_habitat_summaries.csv","Bedrock","Bedrock",NA
+"benthic_specicies_habitat_summaries.csv","Cobbles","Cobbles",NA
+"benthic_specicies_habitat_summaries.csv","Large_VLarge_Boulders","Large VLarge Boulders",NA
+"benthic_specicies_habitat_summaries.csv","Small_Boulders","Small Boulders",NA
+"benthic_specicies_habitat_summaries.csv","Mud","Mud",NA
+"benthic_specicies_habitat_summaries.csv","Muddy_gravel","Muddy gravel",NA
+"benthic_specicies_habitat_summaries.csv","Muddy_sand","Muddy sand",NA
+"benthic_specicies_habitat_summaries.csv","Sandy_mud","Sandy mud",NA
+"benthic_specicies_habitat_summaries.csv","Coarse_sand","Coarse sand",NA
+"benthic_specicies_habitat_summaries.csv","Fine_sand","Fine sand",NA
+"benthic_specicies_habitat_summaries.csv","Other_species","Other species",NA
+"benthic_specicies_habitat_summaries.csv","Pebbles","Pebbles",NA
+"benthic_specicies_habitat_summaries.csv","Artificial","Artificial",NA
+"benthic_specicies_habitat_summaries.csv","Caves","Caves",NA
+"benthic_specicies_habitat_summaries.csv","Overhangs","Overhangs",NA
+"benthic_specicies_habitat_summaries.csv","Gravel_shingle","Gravel shingle",NA
+"benthic_specicies_habitat_summaries.csv","Algae","Algae",NA
+"benthic_specicies_habitat_summaries.csv","Mixed","Mixed",NA
+"benthic_specicies_habitat_summaries.csv","Salt_marsh","Salt marsh",NA
+"benthic_specicies_habitat_summaries.csv","Seagrass","Seagrass",NA
+"benthic_specicies_habitat_summaries.csv","Biogenic_reef","Biogenic reef",NA
+"benthic_specicies_habitat_summaries.csv","Under_boulders","Under boulders",NA
+"benthic_specicies_habitat_summaries.csv","Crevices","Crevices",NA
+"benthic_specicies_habitat_summaries.csv","Rockpools","Rockpools",NA
+"benthic_specicies_habitat_summaries.csv","Pelagic","Pelagic",NA
+"benthic_specicies_habitat_summaries.csv","Mud_grav_sand","Mud grav sand",NA
+"benthic_specicies_habitat_summaries.csv","Sand_grav_mud","Sand grav mud",NA
+"benthic_specicies_habitat_summaries.csv","Maerl","Maerl",NA
+"benthic_specicies_habitat_summaries.csv","Clay","Clay",NA
+"benthic_specicies_habitat_summaries.csv","Gravel_sand","Gravel sand",NA
+"benthic_specicies_habitat_summaries.csv","Mud_sand_gravel","Mud sand gravel",NA
+"benthic_specicies_habitat_summaries.csv","Strandline","Strandline",NA

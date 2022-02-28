@@ -1,0 +1,1833 @@
+<html>
+  <head>
+    <title>Benthic occurrences, habitat maps, and species traits</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="application/ld+json">
+      {
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "Benthic occurrences, habitat maps, and species traits",
+  "creator": [
+    {
+      "type": "Person",
+      "id": "0000-0003-3183-8116",
+      "email": "t.j.webb@sheffield.ac.uk",
+      "affiliation": "University of Sheffield",
+      "name": "Tom J. Webb"
+    }
+  ],
+  "description": "This data product links occurrences of benthic invertebrates from the EMODnet benthic numerical abundance product to two complementary seabed habitat products: the EMODnet broadscale habitat map 2019 (Vasquez et al., 2020), and Wilson et al.'s (2018) synthetic map of the north-west European Shelf sedimentary environment. We also process and incorporate qualitative information on the habitat and sediment preferences of species from the Biological Traits Information Catalogue BIOTIC database.",
+  "datePublished": "2021-04-07",
+  "keywords": ["Marine/Coastal", "Benthos", "Habitat (Ecology)", "Marine", "Ocean floor"],
+  "funder": "European Marine Observation and Data Network- Biology III",
+  "temporalCoverage": "1980-03-17/2018-07-04",
+  "license": "CC-BY 4.0",
+  "spatialCoverage": {
+    "type": "Place",
+    "name": "European Seas",
+    "geo": {
+      "type": "GeoShape",
+      "box": "73.63362 -9.39937 43.34082 35.22617"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "total_events",
+      "description": "total events"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "GravelD50",
+      "description": "GravelD50"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "GravelPercent",
+      "description": "GravelPercent"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "log_D50",
+      "description": "log D50"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MudPercent",
+      "description": "MudPercent"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Rock10cm",
+      "description": "Rock10cm"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Rock50cm",
+      "description": "Rock50cm"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "SandD50",
+      "description": "SandD50"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "SandPercent",
+      "description": "SandPercent"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "TotalD50",
+      "description": "TotalD50"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Energy_High energy",
+      "description": "Energy High energy"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Energy_Low energy",
+      "description": "Energy Low energy"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Energy_Moderate energy",
+      "description": "Energy Moderate energy"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Energy_No energy information",
+      "description": "Energy No energy information"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Energy_NA",
+      "description": "Energy NA"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Biozone_Arctic lower bathyal",
+      "description": "Biozone Arctic lower bathyal"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Biozone_Arctic mid bathyal",
+      "description": "Biozone Arctic mid bathyal"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Biozone_Arctic upper abyssal",
+      "description": "Biozone Arctic upper abyssal"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Biozone_Atlantic upper bathyal",
+      "description": "Biozone Atlantic upper bathyal"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Biozone_Atlanto-Arctic upper bathyal",
+      "description": "Biozone Atlanto-Arctic upper bathyal"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Biozone_Deep circalittoral",
+      "description": "Biozone Deep circalittoral"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Biozone_Infralittoral",
+      "description": "Biozone Infralittoral"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Biozone_Shallow circalittoral",
+      "description": "Biozone Shallow circalittoral"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Biozone_NA",
+      "description": "Biozone NA"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Substrate_Coarse substrate",
+      "description": "Substrate Coarse substrate"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Substrate_Fine mud",
+      "description": "Substrate Fine mud"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Substrate_Fine mud or Sandy mud or Muddy sand",
+      "description": "Substrate Fine mud or Sandy mud or Muddy sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Substrate_Mixed sediment",
+      "description": "Substrate Mixed sediment"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Substrate_Muddy sand",
+      "description": "Substrate Muddy sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Substrate_Rock or other hard substrata",
+      "description": "Substrate Rock or other hard substrata"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Substrate_Sand",
+      "description": "Substrate Sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Substrate_Sandy mud",
+      "description": "Substrate Sandy mud"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Substrate_Sandy mud or Muddy sand",
+      "description": "Substrate Sandy mud or Muddy sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Substrate_Seabed",
+      "description": "Substrate Seabed"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Substrate_Sediment",
+      "description": "Substrate Sediment"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Substrate_NA",
+      "description": "Substrate NA"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Salinity_Euhaline",
+      "description": "Salinity Euhaline"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Salinity_Mesohaline",
+      "description": "Salinity Mesohaline"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Salinity_Oligohaline",
+      "description": "Salinity Oligohaline"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Salinity_Polyhaline",
+      "description": "Salinity Polyhaline"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Salinity_NA",
+      "description": "Salinity NA"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Oxygen_NA",
+      "description": "Oxygen NA"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A3.1",
+      "description": "EUNIScomb A3.1"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A3.2",
+      "description": "EUNIScomb A3.2"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A3.3",
+      "description": "EUNIScomb A3.3"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A3.4",
+      "description": "EUNIScomb A3.4"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A3.5",
+      "description": "EUNIScomb A3.5"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A3.6",
+      "description": "EUNIScomb A3.6"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A4",
+      "description": "EUNIScomb A4"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A4.1",
+      "description": "EUNIScomb A4.1"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A4.2",
+      "description": "EUNIScomb A4.2"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A4.27",
+      "description": "EUNIScomb A4.27"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A4.3",
+      "description": "EUNIScomb A4.3"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A4.33",
+      "description": "EUNIScomb A4.33"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A4.4",
+      "description": "EUNIScomb A4.4"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A4.5",
+      "description": "EUNIScomb A4.5"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A4.6",
+      "description": "EUNIScomb A4.6"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5",
+      "description": "EUNIScomb A5"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.13",
+      "description": "EUNIScomb A5.13"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.14",
+      "description": "EUNIScomb A5.14"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.15",
+      "description": "EUNIScomb A5.15"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.23",
+      "description": "EUNIScomb A5.23"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.23 or A5.24",
+      "description": "EUNIScomb A5.23 or A5.24"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.24",
+      "description": "EUNIScomb A5.24"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.24 or A5.33 or A5.34",
+      "description": "EUNIScomb A5.24 or A5.33 or A5.34"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.25",
+      "description": "EUNIScomb A5.25"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.25 or A5.26",
+      "description": "EUNIScomb A5.25 or A5.26"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.26",
+      "description": "EUNIScomb A5.26"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.26 or A5.35 or A5.36",
+      "description": "EUNIScomb A5.26 or A5.35 or A5.36"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.27",
+      "description": "EUNIScomb A5.27"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.27 or A5.37",
+      "description": "EUNIScomb A5.27 or A5.37"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.33",
+      "description": "EUNIScomb A5.33"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.34",
+      "description": "EUNIScomb A5.34"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.35",
+      "description": "EUNIScomb A5.35"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.36",
+      "description": "EUNIScomb A5.36"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.37",
+      "description": "EUNIScomb A5.37"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.43",
+      "description": "EUNIScomb A5.43"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.44",
+      "description": "EUNIScomb A5.44"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A5.45",
+      "description": "EUNIScomb A5.45"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A6",
+      "description": "EUNIScomb A6"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A6.11",
+      "description": "EUNIScomb A6.11"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A6.2",
+      "description": "EUNIScomb A6.2"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A6.3 or A6.4",
+      "description": "EUNIScomb A6.3 or A6.4"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_A6.5",
+      "description": "EUNIScomb A6.5"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_Na",
+      "description": "EUNIScomb Na"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "EUNIScomb_NA",
+      "description": "EUNIScomb NA"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Abyssal",
+      "description": "MSFD BBHT Abyssal"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Circalittoral coarse sediment",
+      "description": "MSFD BBHT Circalittoral coarse sediment"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Circalittoral mixed sediment",
+      "description": "MSFD BBHT Circalittoral mixed sediment"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Circalittoral mud",
+      "description": "MSFD BBHT Circalittoral mud"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Circalittoral mud or Circalittoral sand",
+      "description": "MSFD BBHT Circalittoral mud or Circalittoral sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Circalittoral rock and biogenic reef",
+      "description": "MSFD BBHT Circalittoral rock and biogenic reef"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Circalittoral sand",
+      "description": "MSFD BBHT Circalittoral sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Infralittoral coarse sediment",
+      "description": "MSFD BBHT Infralittoral coarse sediment"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Infralittoral mixed sediment",
+      "description": "MSFD BBHT Infralittoral mixed sediment"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Infralittoral mud",
+      "description": "MSFD BBHT Infralittoral mud"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Infralittoral mud or Infralittoral sand",
+      "description": "MSFD BBHT Infralittoral mud or Infralittoral sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Infralittoral rock and biogenic reef",
+      "description": "MSFD BBHT Infralittoral rock and biogenic reef"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Infralittoral sand",
+      "description": "MSFD BBHT Infralittoral sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Lower bathyal sediment",
+      "description": "MSFD BBHT Lower bathyal sediment"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Na",
+      "description": "MSFD BBHT Na"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Offshore circalittoral coarse sediment",
+      "description": "MSFD BBHT Offshore circalittoral coarse sediment"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Offshore circalittoral mixed sediment",
+      "description": "MSFD BBHT Offshore circalittoral mixed sediment"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Offshore circalittoral mud",
+      "description": "MSFD BBHT Offshore circalittoral mud"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Offshore circalittoral mud or Offshore circalittoral sand",
+      "description": "MSFD BBHT Offshore circalittoral mud or Offshore circalittoral sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Offshore circalittoral rock and biogenic reef",
+      "description": "MSFD BBHT Offshore circalittoral rock and biogenic reef"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Offshore circalittoral sand",
+      "description": "MSFD BBHT Offshore circalittoral sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Upper bathyal rock and biogenic reef",
+      "description": "MSFD BBHT Upper bathyal rock and biogenic reef"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_Upper bathyal sediment",
+      "description": "MSFD BBHT Upper bathyal sediment"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "MSFD_BBHT_NA",
+      "description": "MSFD BBHT NA"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "AphiaID",
+      "description": "AphiaID"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "total_occ",
+      "description": "total occ"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "total_ab",
+      "description": "total ab"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "mean_ab",
+      "description": "mean ab"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "inf_epi",
+      "description": "inf epi"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "plank_larv",
+      "description": "plank larv"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Bedrock",
+      "description": "Bedrock"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Cobbles",
+      "description": "Cobbles"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Large_VLarge_Boulders",
+      "description": "Large VLarge Boulders"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Small_Boulders",
+      "description": "Small Boulders"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Mud",
+      "description": "Mud"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Muddy_gravel",
+      "description": "Muddy gravel"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Muddy_sand",
+      "description": "Muddy sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Sandy_mud",
+      "description": "Sandy mud"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Coarse_sand",
+      "description": "Coarse sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Fine_sand",
+      "description": "Fine sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Other_species",
+      "description": "Other species"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Pebbles",
+      "description": "Pebbles"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Artificial",
+      "description": "Artificial"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Caves",
+      "description": "Caves"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Overhangs",
+      "description": "Overhangs"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Gravel_shingle",
+      "description": "Gravel shingle"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Algae",
+      "description": "Algae"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Mixed",
+      "description": "Mixed"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Salt_marsh",
+      "description": "Salt marsh"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Seagrass",
+      "description": "Seagrass"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Biogenic_reef",
+      "description": "Biogenic reef"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Under_boulders",
+      "description": "Under boulders"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Crevices",
+      "description": "Crevices"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Rockpools",
+      "description": "Rockpools"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Pelagic",
+      "description": "Pelagic"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Mud_grav_sand",
+      "description": "Mud grav sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Sand_grav_mud",
+      "description": "Sand grav mud"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Maerl",
+      "description": "Maerl"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Clay",
+      "description": "Clay"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Gravel_sand",
+      "description": "Gravel sand"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Mud_sand_gravel",
+      "description": "Mud sand gravel"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "Strandline",
+      "description": "Strandline"
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "benthic_sampling_event_habitat_summaries",
+      "contentUrl": "https://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6620",
+      "encodingFormat": "csv"
+    },
+    {
+      "type": "DataDownload",
+      "name": "benthic_specicies_habitat_summaries",
+      "contentUrl": "https://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6620",
+      "encodingFormat": "csv"
+    }
+  ]
+}
+
+    </script>
+    <style>
+      body {
+        font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        margin: 0 auto;
+        padding: 1rem;
+        max-width: 800px;
+      }
+
+      #map {
+        height: 20rem;
+      }
+
+      #attributes-wrapper,
+      #jsonld-wrapper {
+        height: 20rem;
+        overflow-y: scroll;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      th {
+        border-bottom: 1px solid black;
+      }
+
+      th, td {
+        padding: 0.25rem;
+      }
+
+      table.listing td {
+        border: 1px solid #CCC;
+      }
+
+      table.listing tr td:first-child {
+          background-color: #EEE;
+      }
+
+      table.listing ul {
+        margin: 0 0 0 1.5rem;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Benthic occurrences, habitat maps, and species traits</h1>
+    <p><strong>Description:</strong> This data product links occurrences of benthic invertebrates from the EMODnet benthic numerical abundance product to two complementary seabed habitat products: the EMODnet broadscale habitat map 2019 (Vasquez et al., 2020), and Wilson et al.'s (2018) synthetic map of the north-west European Shelf sedimentary environment. We also process and incorporate qualitative information on the habitat and sediment preferences of species from the Biological Traits Information Catalogue BIOTIC database.</p>
+
+    <h2>Bibliographic</h2>
+
+    <table class="listing">
+      <tr>
+        <td>Published</td>
+        <td>2021-04-07</td>
+      </tr>
+      <tr>
+        <td>Keywords</td>
+        <td>
+          <ul>
+            <li>Marine/Coastal</li>
+            <li>Benthos</li>
+            <li>Habitat (Ecology)</li>
+            <li>Marine</li>
+            <li>Ocean floor</li>
+        </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Funder</td>
+        <td>European Marine Observation and Data Network- Biology III</td>
+      </tr>
+      <tr>
+        <td>License</td>
+        <td>CC-BY 4.0</td>
+      </tr>
+    </table>
+
+    <h2>Coverage</h2>
+
+    <h3>Temporal</h3>
+
+    <table class="listing">
+      <tr>
+        <td>Begin</td>
+        <td>1980-03-17</td>
+      </tr>
+      <tr>
+        <td>End</td>
+        <td>2018-07-04</td>
+      </tr>
+    </table>
+
+    <h3>Spatial</h3>
+    <pre><code></code></pre>
+    <div id="map"></div>
+
+    <h2>Attributes</h2>
+
+    <div id="attributes-wrapper">
+      <table id="attributes">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Unit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>total_events</code></td>
+            <td>total events</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>GravelD50</code></td>
+            <td>GravelD50</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>GravelPercent</code></td>
+            <td>GravelPercent</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>log_D50</code></td>
+            <td>log D50</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MudPercent</code></td>
+            <td>MudPercent</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Rock10cm</code></td>
+            <td>Rock10cm</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Rock50cm</code></td>
+            <td>Rock50cm</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>SandD50</code></td>
+            <td>SandD50</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>SandPercent</code></td>
+            <td>SandPercent</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>TotalD50</code></td>
+            <td>TotalD50</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Energy_High energy</code></td>
+            <td>Energy High energy</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Energy_Low energy</code></td>
+            <td>Energy Low energy</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Energy_Moderate energy</code></td>
+            <td>Energy Moderate energy</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Energy_No energy information</code></td>
+            <td>Energy No energy information</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Energy_NA</code></td>
+            <td>Energy NA</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Biozone_Arctic lower bathyal</code></td>
+            <td>Biozone Arctic lower bathyal</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Biozone_Arctic mid bathyal</code></td>
+            <td>Biozone Arctic mid bathyal</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Biozone_Arctic upper abyssal</code></td>
+            <td>Biozone Arctic upper abyssal</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Biozone_Atlantic upper bathyal</code></td>
+            <td>Biozone Atlantic upper bathyal</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Biozone_Atlanto-Arctic upper bathyal</code></td>
+            <td>Biozone Atlanto-Arctic upper bathyal</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Biozone_Deep circalittoral</code></td>
+            <td>Biozone Deep circalittoral</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Biozone_Infralittoral</code></td>
+            <td>Biozone Infralittoral</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Biozone_Shallow circalittoral</code></td>
+            <td>Biozone Shallow circalittoral</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Biozone_NA</code></td>
+            <td>Biozone NA</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Substrate_Coarse substrate</code></td>
+            <td>Substrate Coarse substrate</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Substrate_Fine mud</code></td>
+            <td>Substrate Fine mud</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Substrate_Fine mud or Sandy mud or Muddy sand</code></td>
+            <td>Substrate Fine mud or Sandy mud or Muddy sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Substrate_Mixed sediment</code></td>
+            <td>Substrate Mixed sediment</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Substrate_Muddy sand</code></td>
+            <td>Substrate Muddy sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Substrate_Rock or other hard substrata</code></td>
+            <td>Substrate Rock or other hard substrata</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Substrate_Sand</code></td>
+            <td>Substrate Sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Substrate_Sandy mud</code></td>
+            <td>Substrate Sandy mud</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Substrate_Sandy mud or Muddy sand</code></td>
+            <td>Substrate Sandy mud or Muddy sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Substrate_Seabed</code></td>
+            <td>Substrate Seabed</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Substrate_Sediment</code></td>
+            <td>Substrate Sediment</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Substrate_NA</code></td>
+            <td>Substrate NA</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Salinity_Euhaline</code></td>
+            <td>Salinity Euhaline</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Salinity_Mesohaline</code></td>
+            <td>Salinity Mesohaline</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Salinity_Oligohaline</code></td>
+            <td>Salinity Oligohaline</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Salinity_Polyhaline</code></td>
+            <td>Salinity Polyhaline</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Salinity_NA</code></td>
+            <td>Salinity NA</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Oxygen_NA</code></td>
+            <td>Oxygen NA</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A3.1</code></td>
+            <td>EUNIScomb A3.1</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A3.2</code></td>
+            <td>EUNIScomb A3.2</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A3.3</code></td>
+            <td>EUNIScomb A3.3</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A3.4</code></td>
+            <td>EUNIScomb A3.4</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A3.5</code></td>
+            <td>EUNIScomb A3.5</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A3.6</code></td>
+            <td>EUNIScomb A3.6</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A4</code></td>
+            <td>EUNIScomb A4</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A4.1</code></td>
+            <td>EUNIScomb A4.1</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A4.2</code></td>
+            <td>EUNIScomb A4.2</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A4.27</code></td>
+            <td>EUNIScomb A4.27</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A4.3</code></td>
+            <td>EUNIScomb A4.3</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A4.33</code></td>
+            <td>EUNIScomb A4.33</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A4.4</code></td>
+            <td>EUNIScomb A4.4</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A4.5</code></td>
+            <td>EUNIScomb A4.5</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A4.6</code></td>
+            <td>EUNIScomb A4.6</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5</code></td>
+            <td>EUNIScomb A5</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.13</code></td>
+            <td>EUNIScomb A5.13</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.14</code></td>
+            <td>EUNIScomb A5.14</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.15</code></td>
+            <td>EUNIScomb A5.15</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.23</code></td>
+            <td>EUNIScomb A5.23</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.23 or A5.24</code></td>
+            <td>EUNIScomb A5.23 or A5.24</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.24</code></td>
+            <td>EUNIScomb A5.24</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.24 or A5.33 or A5.34</code></td>
+            <td>EUNIScomb A5.24 or A5.33 or A5.34</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.25</code></td>
+            <td>EUNIScomb A5.25</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.25 or A5.26</code></td>
+            <td>EUNIScomb A5.25 or A5.26</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.26</code></td>
+            <td>EUNIScomb A5.26</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.26 or A5.35 or A5.36</code></td>
+            <td>EUNIScomb A5.26 or A5.35 or A5.36</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.27</code></td>
+            <td>EUNIScomb A5.27</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.27 or A5.37</code></td>
+            <td>EUNIScomb A5.27 or A5.37</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.33</code></td>
+            <td>EUNIScomb A5.33</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.34</code></td>
+            <td>EUNIScomb A5.34</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.35</code></td>
+            <td>EUNIScomb A5.35</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.36</code></td>
+            <td>EUNIScomb A5.36</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.37</code></td>
+            <td>EUNIScomb A5.37</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.43</code></td>
+            <td>EUNIScomb A5.43</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.44</code></td>
+            <td>EUNIScomb A5.44</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A5.45</code></td>
+            <td>EUNIScomb A5.45</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A6</code></td>
+            <td>EUNIScomb A6</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A6.11</code></td>
+            <td>EUNIScomb A6.11</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A6.2</code></td>
+            <td>EUNIScomb A6.2</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A6.3 or A6.4</code></td>
+            <td>EUNIScomb A6.3 or A6.4</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_A6.5</code></td>
+            <td>EUNIScomb A6.5</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_Na</code></td>
+            <td>EUNIScomb Na</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>EUNIScomb_NA</code></td>
+            <td>EUNIScomb NA</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Abyssal</code></td>
+            <td>MSFD BBHT Abyssal</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Circalittoral coarse sediment</code></td>
+            <td>MSFD BBHT Circalittoral coarse sediment</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Circalittoral mixed sediment</code></td>
+            <td>MSFD BBHT Circalittoral mixed sediment</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Circalittoral mud</code></td>
+            <td>MSFD BBHT Circalittoral mud</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Circalittoral mud or Circalittoral sand</code></td>
+            <td>MSFD BBHT Circalittoral mud or Circalittoral sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Circalittoral rock and biogenic reef</code></td>
+            <td>MSFD BBHT Circalittoral rock and biogenic reef</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Circalittoral sand</code></td>
+            <td>MSFD BBHT Circalittoral sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Infralittoral coarse sediment</code></td>
+            <td>MSFD BBHT Infralittoral coarse sediment</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Infralittoral mixed sediment</code></td>
+            <td>MSFD BBHT Infralittoral mixed sediment</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Infralittoral mud</code></td>
+            <td>MSFD BBHT Infralittoral mud</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Infralittoral mud or Infralittoral sand</code></td>
+            <td>MSFD BBHT Infralittoral mud or Infralittoral sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Infralittoral rock and biogenic reef</code></td>
+            <td>MSFD BBHT Infralittoral rock and biogenic reef</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Infralittoral sand</code></td>
+            <td>MSFD BBHT Infralittoral sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Lower bathyal sediment</code></td>
+            <td>MSFD BBHT Lower bathyal sediment</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Na</code></td>
+            <td>MSFD BBHT Na</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Offshore circalittoral coarse sediment</code></td>
+            <td>MSFD BBHT Offshore circalittoral coarse sediment</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Offshore circalittoral mixed sediment</code></td>
+            <td>MSFD BBHT Offshore circalittoral mixed sediment</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Offshore circalittoral mud</code></td>
+            <td>MSFD BBHT Offshore circalittoral mud</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Offshore circalittoral mud or Offshore circalittoral sand</code></td>
+            <td>MSFD BBHT Offshore circalittoral mud or Offshore circalittoral sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Offshore circalittoral rock and biogenic reef</code></td>
+            <td>MSFD BBHT Offshore circalittoral rock and biogenic reef</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Offshore circalittoral sand</code></td>
+            <td>MSFD BBHT Offshore circalittoral sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Upper bathyal rock and biogenic reef</code></td>
+            <td>MSFD BBHT Upper bathyal rock and biogenic reef</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_Upper bathyal sediment</code></td>
+            <td>MSFD BBHT Upper bathyal sediment</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>MSFD_BBHT_NA</code></td>
+            <td>MSFD BBHT NA</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>AphiaID</code></td>
+            <td>AphiaID</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>total_occ</code></td>
+            <td>total occ</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>total_ab</code></td>
+            <td>total ab</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>mean_ab</code></td>
+            <td>mean ab</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>inf_epi</code></td>
+            <td>inf epi</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>plank_larv</code></td>
+            <td>plank larv</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Bedrock</code></td>
+            <td>Bedrock</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Cobbles</code></td>
+            <td>Cobbles</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Large_VLarge_Boulders</code></td>
+            <td>Large VLarge Boulders</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Small_Boulders</code></td>
+            <td>Small Boulders</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Mud</code></td>
+            <td>Mud</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Muddy_gravel</code></td>
+            <td>Muddy gravel</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Muddy_sand</code></td>
+            <td>Muddy sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Sandy_mud</code></td>
+            <td>Sandy mud</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Coarse_sand</code></td>
+            <td>Coarse sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Fine_sand</code></td>
+            <td>Fine sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Other_species</code></td>
+            <td>Other species</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Pebbles</code></td>
+            <td>Pebbles</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Artificial</code></td>
+            <td>Artificial</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Caves</code></td>
+            <td>Caves</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Overhangs</code></td>
+            <td>Overhangs</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Gravel_shingle</code></td>
+            <td>Gravel shingle</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Algae</code></td>
+            <td>Algae</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Mixed</code></td>
+            <td>Mixed</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Salt_marsh</code></td>
+            <td>Salt marsh</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Seagrass</code></td>
+            <td>Seagrass</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Biogenic_reef</code></td>
+            <td>Biogenic reef</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Under_boulders</code></td>
+            <td>Under boulders</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Crevices</code></td>
+            <td>Crevices</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Rockpools</code></td>
+            <td>Rockpools</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Pelagic</code></td>
+            <td>Pelagic</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Mud_grav_sand</code></td>
+            <td>Mud grav sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Sand_grav_mud</code></td>
+            <td>Sand grav mud</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Maerl</code></td>
+            <td>Maerl</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Clay</code></td>
+            <td>Clay</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Gravel_sand</code></td>
+            <td>Gravel sand</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Mud_sand_gravel</code></td>
+            <td>Mud sand gravel</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>Strandline</code></td>
+            <td>Strandline</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Distribution</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>File</th>
+          <th>Format</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>benthic_sampling_event_habitat_summaries</code></td>
+          <td><code>csv</code></td>
+          <td><a href="https://www.emodnet-biology.eu/data-catalog?module=dataset&amp;dasid=6620">Download</a></td>
+        </tr>
+        <tr>
+          <td><code>benthic_specicies_habitat_summaries</code></td>
+          <td><code>csv</code></td>
+          <td><a href="https://www.emodnet-biology.eu/data-catalog?module=dataset&amp;dasid=6620">Download</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+    <script>
+      var mymap = L.map('map').setView([58.48722, 12.9134], 1);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+        maxZoom: 18,
+      }).addTo(mymap);
+
+      var polygon = L.polygon([[ 73.63362, -9.39937], [ 43.34082, -9.39937], [ 43.34082, 35.22617], [ 73.63362, 35.22617]]).addTo(mymap);
+    </script>
+  </body>
+</html>
