@@ -159,6 +159,7 @@ fs::dir_tree("product")
 - **id:** ORCID or another ID.
 - **name:** The name of the creator.
 - **affilitation:** Affiliation of the creator.
+- **email:** Email of the creator.
 
 Let's start with a quick and easy file to complete, the **creators**. We can **open and edit** the file in an **interactive shiny app** using **`dataspice::edit_creators()`**. 
 

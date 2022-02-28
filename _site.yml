@@ -5,6 +5,9 @@ description: |
 output_dir: "docs"
 creative_commons: CC BY-SA
 exclude: ["data", "product"]
+favicon: images/favicon.png
+twitter:
+  site: "@annakrystalli"
 navbar:
   logo:
     image: images/logo.png
