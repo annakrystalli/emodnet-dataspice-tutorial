@@ -34,7 +34,7 @@ meta() %>%
   meta_social(
     title = "EMODnet Biology Dataspice Tutorial",
     url = "http://annakrystalli.me/emodnet-dataspice-tutorial/",
-    image = "https://repository-images.githubusercontent.com/257969031/8d10c100-e84e-11ea-8200-6a1aa6d8a356",
+    image = "https://github.com/annakrystalli/emodnet-dataspice-tutorial/blob/master/images/EMODnet_coll_all.jpeg?raw=true",
     image_alt = "EMODnet logo",
     og_type = "website",
     twitter_card_type = "summary_large_image"
