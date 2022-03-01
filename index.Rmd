@@ -486,4 +486,4 @@ knitr::include_url("dataspice/index.html")
 - [`biblio.csv`](https://github.com/annakrystalli/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits/blob/master/product/metadata/biblio.csv)
 - [`creators.csv`](https://github.com/annakrystalli/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits/blob/master/product/metadata/creators.csv)
 
-See the [**whole repository**](https://annakrystalli.me/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits/)
+See the [**whole repository**](https://github.com/annakrystalli/EMODnet-Biology-Benthic-Habitats-Occurrences-Traits)
